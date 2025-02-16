@@ -1,4 +1,6 @@
-{
+{ "engines": {
+    "node": "23.8.0"
+  },
   "name": "remittance-app",
   "version": "1.0.0",
   "main": "index.js",
