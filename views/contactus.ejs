@@ -1,0 +1,21 @@
+<%- layout("/layouts/boilerplate") %>
+
+<form class="form-control p-4 shadow-lg">
+    <div class="mb-3">
+        <label for="email" class="form-label">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+
+    <div class="mb-3">
+        <label for="phone" class="form-label">Phone Number:</label>
+        <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+    </div>
+
+    <div class="mb-3">
+        <label for="message" class="form-label">Message:</label>
+        <textarea class="form-control" id="message" rows="4" placeholder="Enter your message..."></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary w-100">Submit</button>
+</form>
