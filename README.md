@@ -1,2 +1,2 @@
 # BridgePay
-Cross-Border Remittance via Stablecoin
+Cross-Border Remittance via Stablecoins
